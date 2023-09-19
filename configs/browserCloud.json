@@ -1,0 +1,44 @@
+{
+    "bcUser": "",
+    "bcKey": "",
+    "caps": {
+        "project": "",
+        "build": "",
+        "name": "",
+        "buildTag": ""
+    },
+    "platforms": {
+        "firefox_mac": {
+            "browser": "firefox",
+            "browser_version": "latest",
+            "os": "OS X",
+            "os_version": "Monterey",
+            "resolution": "1920x1080",
+            "local": true
+        },
+        "chrome_mac": {
+            "browser": "chrome",
+            "browser_version": "latest",
+            "os": "OS X",
+            "os_version": "Monterey",
+            "resolution": "1920x1080"
+        },
+        "webkit_mac": {
+            "browser": "playwright-webkit",
+            "browser_version": "latest",
+            "os": "OS X",
+            "os_version": "Monterey",
+            "resolution": "1920x1080"
+        }
+    },
+    "extendedCaps": {
+        "resolution": "1920x1080",
+        "browserstack.geoLocation": "DE",
+        "browserstack.local": true,
+        "browserstack.localIdentifier": "string",
+        "browserstack.debug": true,
+        "browserstack.networkLogs": true,
+        "browserstack.interactiveDebugging": true,
+        "acceptInsecureCerts": true
+    }
+}
