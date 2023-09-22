@@ -18,7 +18,6 @@ module.exports = {
         ],
         requireModule: [
             "ts-node/register"
-        ],
-        publishQuiet: false,
+        ]
     }
 }

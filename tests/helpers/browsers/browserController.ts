@@ -5,8 +5,8 @@ import * as cp from "child_process"
 
 
 const launchOptions: LaunchOptions = {
-    headless: false,
-    slowMo: 500
+    headless: true,
+    slowMo: 100
 };
 
 export const initialiseBrowser = () => {
